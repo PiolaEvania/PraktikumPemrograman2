@@ -11,7 +11,7 @@ public class buah {
 	private Double totaldiskon;
 	private Double setelahdiskon;
 	
-	public int getTotalbeli() {
+	public double getTotalbeli() {
 		return totalbeli;
 	}
 
@@ -28,7 +28,7 @@ public class buah {
 	}
 
 	public Double getTotaldiskon() {
-		return totaldiskon = totalharga * 0.2;
+		return totaldiskon = (totalbeli / 4) * (4 * harga) * 0.02;
 	}
 
 	public void setTotaldiskon(Double totaldiskon) {
